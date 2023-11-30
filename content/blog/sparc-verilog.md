@@ -1,5 +1,5 @@
 ---
-title: SparcV8 Hardware Design
+title: 'SparcV8 Hardware Design'
 repoURL: https://github.com/FrenzyExists/Computer-Architecture-Project-SPARC
 status: 'Developing'
 readTime: '10min'

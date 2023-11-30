@@ -37,25 +37,25 @@ if (useMounted()) {
 
 </script>
 <template>
-  <section class="text-dark-accent-200 bg-neutral-100 body-font border-b-[2rem] border-neutral-50">
+  <section class="text-base-1 bg-neutral-2 body-font border-b-[2rem] border-neutral-3">
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
       <div
         class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h5 class="text-2xl uppercase">Hey there!</h5>
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-dark-accent-100">It's Detective Pikachu</h1>
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-accent-1">It's Detective Pikachu</h1>
         <h4 class="text-4xl sm:text-3xl text-soft">
           A <span id="typed"></span>
 
         </h4>
         <blockquote class="text-lg italic font-semibold mt-3 ">
-          <Icon name="material-symbols:format-quote-rounded" size="3rem" class="mb-1 block text-neutral-50" />
+          <Icon name="material-symbols:format-quote-rounded" size="3rem" class="mb-1 block text-accent-1" />
           <p class="ml-2 ">{{ quote.text }}</p>
-          <span class="text-sm font-light text-dark-accent-100">{{ quote.author }}</span>
+          <span class="text-sm font-light text-accent-1">{{ quote.author }}</span>
         </blockquote>
 
       </div>
       <div class="flex flex-col items-center lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <Icon name="mdi:airballoon-outline" class="mb-1 block h-max w-5/6 object-cover object-center animate-float" />
+        <Icon name="mdi:airballoon-outline" class="text-accent-1 mb-1 block h-max w-5/6 object-cover object-center animate-float" />
       </div>
     </div>
   </section>

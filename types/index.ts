@@ -11,7 +11,7 @@ export interface Column {
 export interface Tag {
     id: ID;
     tagName: string;
-    color: number;
+    color: string;
 }
 
 export interface Tasks {
@@ -21,6 +21,8 @@ export interface Tasks {
 }
 
 export interface Article extends Tasks {
+    stars?: number;
+    forks?: number;
     description: string;
     tags: Tag[];
     link?: string

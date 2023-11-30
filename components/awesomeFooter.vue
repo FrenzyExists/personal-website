@@ -5,10 +5,10 @@ export default {
 </script>
 
 <template>
-    <footer class="bg-base-300">
+    <footer class="bg-neutral-1 text-base-1">
       <div class="relative -mb-3">
         <svg
-          class="text-base-300 absolute top-0 w-full h-6 sm:-mt-10 sm:h-16 m-auto"
+          class="text-neutral-1 absolute top-0 w-full h-6 sm:-mt-10 sm:h-16 m-auto"
           preserveAspectRatio="none"
           viewBox="0 0 1440 54"
         >
@@ -23,18 +23,18 @@ export default {
           class="font-bold flex title-font items-center md:justify-start justify-center"
         >
           <icon name="uil:bolt" 
-          class="bg-neutral-100 text-dark-accent-200 mr-2 block p-2 rounded"
+          class="bg-neutral-2 text-accent-1 mr-2 block p-2 rounded"
           size="2.75rem"/>
-          <span class="ml-2 text-xl">Pikachu's</span>
+          <span class="ml-2 text-xl text-accent-1">Pikachu's</span>
         </a>
         <p
-          class=" sm:border-accent-100 sm:ml-4 sm:pl-4 sm:border-l-2 sm:py-2 sm:mt-0 mt-4"
+          class=" sm:border-neutral-3 sm:ml-4 sm:pl-4 sm:border-l-2 sm:py-2 sm:mt-0 mt-4"
         >
           © {{ new Date().getFullYear() }}
           Angel Garcia —
           <a
             href="https://twitter.com/not__pikachu"
-            class="text-dark-accent-100 hover:text-dark-accent-200 bg-neutral-200 p-1 inline-block font-semibold rounded ml-1"
+            class="text-accent-1 hover:text-accent-200 bg-neutral-3 p-1 inline-block font-semibold rounded ml-1"
             rel="noopener noreferrer"
             target="_blank"
             >@not__pikachu</a
@@ -42,15 +42,15 @@ export default {
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a href="https://github.com/FrenzyExists"
-          class="text-neutral-100 hover:text-neutral-200 ml-3 hover:opacity-80">
+          class="text-accent-1 hover:text-neutral-200 ml-3 hover:opacity-80">
             <Icon name="uil:github-alt" class="w-7 h-7"/>
           </a>
           <a href="https://www.hackerrank.com/profile/frenzyexists"
-          class="text-neutral-100 hover:text-neutral-200 ml-3 hover:opacity-80">
+          class="text-accent-1 hover:text-neutral-200 ml-3 hover:opacity-80">
             <Icon name="cib:hackerrank" class="w-7 h-7"/>
           </a>
           <a href="https://www.linkedin.com/in/angel-luis-garcia/"
-          class="text-neutral-100 hover:text-neutral-200 ml-3 hover:opacity-80">
+          class="text-accent-1 hover:text-neutral-200 ml-3 hover:opacity-80">
             <Icon name="uil:linkedin-alt" class="w-7 h-7"/>
           </a>
         </span>

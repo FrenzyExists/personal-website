@@ -8,9 +8,15 @@
 
 </script>
 <template>
-  <div class="bg-base-400 text-neutral-100  overflow-auto min-h-full h-screen">
+  <div class="text-base-1 overflow-auto min-h-full h-screen">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
+
+<style>
+body{
+  @apply bg-neutral-1;
+}
+</style>

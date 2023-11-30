@@ -10,7 +10,6 @@ const formData = reactive({
 });
 
 
-
 const rules = computed(() => {
   return {
     email: {
@@ -28,8 +27,6 @@ const rules = computed(() => {
 });
 
 const v$ = useVuelidate(rules, formData);
-
-
 
 
 const submitForm = () => {
